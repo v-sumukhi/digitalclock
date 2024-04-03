@@ -32,4 +32,5 @@ min.textContent=todayDate.getMinutes().toString().padStart(2,'0');
 sec.textContent=todayDate.getSeconds().toString().padStart(2,'0');}
 
 
+setDate();
 setInterval(setDate,1000);
